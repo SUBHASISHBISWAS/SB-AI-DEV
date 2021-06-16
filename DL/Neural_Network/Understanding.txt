@@ -1,0 +1,18 @@
+My Understanding :
+1. So weighted Sum to Perceptron or neuron or node is nothing but Matrix multiplication
+
+
+
+Important Author Note:
+
+The truth of the feed-forward algorithm is the inputs come in you take a
+weighted sum you add in the bias and pass it through the activation function and
+that result feeds forward towards the network and go straight to the output.
+
+And guess what the output does the output takes  the weights of all the connections
+between the hidden and the output so the matrix product of the hiddens with
+those weights plus its own biases then passes that through the sigmoid function.
+
+This just happens every sing with every single layer here come the inputs
+weighted sum passes the activation function send that as output into the
+weighted sum of the next node pass of the activation function send output.
