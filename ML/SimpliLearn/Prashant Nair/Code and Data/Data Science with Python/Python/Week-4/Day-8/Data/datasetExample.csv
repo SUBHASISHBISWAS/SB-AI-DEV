@@ -1,0 +1,12 @@
+﻿CustomerID,Age_Group,Rating(1-5),Hotel,FoodPreference,Bill,NoOfPax,EstimatedSalary,Age_Group
+1,20-25,4,Ibis,veg,1300,2,40000,20-25
+2,30-35,5,LemonTree,Non-Veg,2000,3,59000,30-35
+3,25-30,6,RedFox,Veg,1322,2,30000,25-30
+4,20-25,-1,LemonTree,Veg,1234,2,120000,20-25
+5,35+,3,Ibis,Vegetarian,989,2,45000,35+
+6,35+,3,Ibys,Non-Veg,1909,2,122220,35+
+7,35+,4,RedFox,Vegetarian,1000,-1,21122,35+
+8,20-25,7,LemonTree,Veg,2999,-10,345673,20-25
+9,25-30,2,Ibis,Non-Veg,3456,3,-99999,25-30
+9,25-30,2,Ibis,Non-Veg,3456,3,-99999,25-30
+10,30-35,5,RedFox,non-Veg,-6755,4,87777,30-35

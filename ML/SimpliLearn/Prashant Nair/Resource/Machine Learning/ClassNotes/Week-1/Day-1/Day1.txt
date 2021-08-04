@@ -1,0 +1,209 @@
+Machine Learning Advanced Certification --- Day 1
+==================================================
+
+Trainer: Prashant Nair
+
+Agenda
+-----
+Class Introduction 
+Course Introduction
+Introduction to AI and ML
+
+
+
+Course Structure:
+
+1. Course Introduction
+2. Introduction to Artificial Intelligence and Machine Learning
+3. Data Wrangling and Manipulation(Pandas and Numpy)
+4. Supervised Learning (Regression)
+5. Feature Engineering
+6. Supervised Learning-Classification
+7. Ensemble Learning
+8. Unsupervised learning
+9. Time Series Modelling
+10. Recommender Systems
+11. Text Mining
+12. Projects
+13. QnA
+
+Pre-req
+
+1. Familiar with Python
+2. Little bit of experience dealing with Data
+
+
+
+Introduction to AI
+===================
+
+Goal: Extract Intelligence !!
+
+1. Artificial Intelligence
+2. Machine Learning
+3. Deep Learning
+4. Data Mining
+
+
+					Artificial Intelligence 
+	          (Business Term: Simulate human intelligence (machine, software))
+						|
+		---------------------------------------------------------------------
+		|								    |
+	Traditional Programming					      Automated Learning
+	(Manual Programming)					(You want machine to understand the logic,
+	C++, C, Java						pattern)
+	(How to write the logic)				(Logic is discovered from HISTORICAL data)
+	(How to reach the solution)						    |
+					---------------------------------------------------------
+					|						        |
+				Machine Learning					Deep Learning
+			The outcome of ML is a STATIC model		The outcome of DL is a Neural Network
+												(Dynamic Model)
+
+
+Model ---> Like Brain who can think of a solution for a given problem !!!
+
+	2 ----> Model (+) ----> 4 
+	2 ---->
+	
+	(Output based on his 
+	Experiece)
+	(Feeding Historical Data
+	during learning phase)
+
+
+Bigdata
+=========
+
+Bigdata is a TERM. Its not a TECHNOLOGY. ITS not a TOOL. 
+
+Its all about the abililty of the SOFTWARE/ FRAMEWORK / HARDWARE/ ARCHITECTURE to HANDLE the data.
+
+HANDLE refers to :
+	a. LOAD
+	b. PROCESS
+	c. STORE
+
+If in any of the above scenario, the SOFTWARE/ FRAMEWORK / HARDWARE/ ARCHITECTURE crashes, I can say we are facing a BIGDATA problem.
+
+e.g. 201201hourly.txt
+
+Notepad  ---> It tried but failed to LOAD the data, Thus for NOTEPAD, its a BIGDATA !!!
+
+Wordpad ----> It tried, had some LATENCY, but loaded the data SUCCESSFULLY. Thus for Wordpad, its a NORMAL DATA !!!
+
+
+
+
+Basic Knowledge on Python
+===========================
+
+Basic Concepts
+- Python Basics
+- Collection Objects (List, Tuples, Dictionary, Set)
+- Conditional Statements (if else, if, elif ladder)
+- Functions and Lambda Expressions
+
+
+Data Wrangling, EDA, Data Manipulation
+2. Numpy Package
+3. Pandas Package 
+
+ML and Data mining Implementations
+4. Sci-kit learn
+
+For Visualization
+5. Matplotlib
+6. Seaborn
+
+To work in Python, Anaconda Navigator
+
+https://www.anaconda.com/distribution/
+https://repo.anaconda.com/archive/Anaconda3-2019.07-Windows-x86_64.exe
+
+Python Tutorials
+
+1. https://www.w3schools.com/python
+Python Tutorial
+Python HOME
+Python Intro
+Python Get Started
+Python Syntax
+Python Comments
+Python Variables
+Python Numbers
+Python Casting
+Python Strings
+Python Operators
+Python Lists
+Python Tuples
+Python Sets
+Python Dictionaries
+Python If...Else
+Python While Loops
+Python For Loops
+Python Functions
+Python Lambda
+
+2. https://www.w3resource.com/python-exercises/
+
+Solve Exercises of Relevant topics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
