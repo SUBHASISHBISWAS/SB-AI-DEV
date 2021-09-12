@@ -1,0 +1,27 @@
+Questions
+
+General:
+1. If i renaming coloumns using Names while reading Data from CSV ->Data Type is getting 	Chnaged -->How to Prevent this?
+
+as example 
+df=pd.read_csv("Data/USA_Housing.csv",header=None , names = ['Income','HouseAge','NumberOfRooms',"NumberOfBedrooms","Population","Price","Address"])
+
+if i do following Data Type is getting Chnaged from float->object for all coloumn
+
+-----------------------------------------------------------------------------------------
+2.Getting Following Warning While running LogisticsRegression example
+
+Users/subhasishbiswas/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+
+if i put following value then Warning get resolved but model behaviour is not correct  
+ 	LogisticRegression(multi_class='auto',solver='liblinear')
+-----------------------------------------------------------------------------------------
+
+Assignament:
+DAY-7
+USA_Housing Assign,ent -> No.of bed room has no corellation with price, can we execlude it from featre  (though it part of house characteristics)
+-----------------------------------------------------------------------------------------
+
+Project:
+

@@ -1,0 +1,79 @@
+Data Science using Python --- Day 3
+
+Statistical Modelling / Machine Learning / Data Mining ---- To create a model that will help 						you take decisions/predictions
+
+Python Packages
+
+Numpy --------> data loading(not preferred for structured data)(preferred for unstructured 		data), Apply Mathematical formulaes 
+Scipy --------> Matrix Operations
+Pandas --------> data loading , EDA (Exploratory Data Analysis) , Data Analyis
+Matplotlib ----> data visualization 
+to perform Data Loading, Exploration and Analysis
+-------------------------------------------------
+Sci-kit learn
+ - to implement Statistical Modelling
+ - expects your data to be in the form of Numpy Array !!!!
+Tensorflow
+Keras
+---------------------------------------------------
+
+
+
+Numpy ----> Numerical Python ( Mathematical Implementations )
+===============================================================
+
+Reasons to know numpy for a data scientists:
+-----------------------------------------------
+1. Handling data (Missing Value Analysis , Outlier Analysis and Detection, etc.)
+2. ML algo expects your data to be in the form of Numpy Array
+3. Better memory optimization for large files 
+
+
+Numpy is used to create and work on ARRAYS !!!!
+
+Arrays are collection of similar elements .
+
+				Arrays
+				   |
+		-------------------------------------------
+		|					   |
+	Single Dimensional Arrays		Multi-dimensional arrays
+	
+
+Assignment Time -- Complete Numpy Assignment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

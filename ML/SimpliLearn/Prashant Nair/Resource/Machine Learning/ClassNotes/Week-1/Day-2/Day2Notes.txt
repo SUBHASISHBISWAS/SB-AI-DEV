@@ -1,0 +1,84 @@
+Handling inappropriate data
+==============================
+
+The only thing that will help you to deal with inappropriate data is having enough DOMAIN KNOWLEDGE !!!
+
+Guidelines by Prashant Nair:
+--------------------------------
+1. Identify the type of data for each column. *(Numerical, categorical and ordinal)
+
+2. Check and remove all duplicate records and columns from the DATAFRAME
+
+3. For numerical columns, identify whether the data is continous or discrete.
+
+   If your data is continous, check with reference to the domain if the following is allowed or not,
+		1. Negative Numbers
+		2. Positive Numbers
+		3. Decimals allowed or just Integers are expected.
+  
+   If your data is discrete, check the following with reference to the domain,
+		1. Range of the number allowed (e.g. for Marks column(max 100) (0 - 100) )
+		2. Decimals allowed or just integer expected
+
+4. For categorical columns, perform the following,
+	1. Get the unique values of the column
+	2. Handle the data which has spelling errors, case errors (lowercase, uppercase etc)
+	3. Check whether the groups shown in the unique values match the domain specification.
+
+5. For ordinal columns, perform the following,
+	1. Get the unique values of the column
+	2. Handle the data which has spelling errors, case errors (lowercase, uppercase etc) 
+	3. Check whether the groups shown in the unique values match the domain specification.
+	4. Check the mathematical weightage of  each unique group. Ensure it match the domain specification. 
+	5. If no mathematical weightage present at column, ensure you build the same.
+
+		e.g Ratings		Ratings
+		    --------   -->      ---------
+		     5 star		  5
+		     2 star		  2	
+		     3 star		  3
+
+6. Dealing with date columns [Date has significance only when you are dealing with Time Series Analysis]
+	1. Convert the date column into datetime datatype
+	2. Ensure the row index for the dataframe is date column
+	3. Incase of missing values on date column, ideally it is recommended to delete the record or take mode only            if domain specification supports the same.
+
+
+
+Rules to handle Missing Data
+==============================
+
+The below steps are helpful if you dont consider DOMAIN KNOWLEDGE!!!
+
+Statistical Rules:
+-------------------
+1. If your column is Numeric(Continous) , replace NaN with Mean | replace with Default Values
+2. If your column is Numeric(Discrete), replace NaN with Median | replace with Default Values
+3. If your column is Categorical, replace NaN with Mode (Most Frequent) | replace with Default Values
+4. If your column is Ordinal, replace NaN with Mode | replace with Default Values
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

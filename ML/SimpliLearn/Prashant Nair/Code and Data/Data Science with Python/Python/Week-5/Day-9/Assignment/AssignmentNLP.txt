@@ -1,0 +1,5 @@
+Predict whether the customer is happy or not using yelp.csv dataset.
+
+Notes:
+	1. Consider rating - 5,4 as Happy and rating - 1,2,3 as Unhappy
+	2. Feature: text; Label: You will create named "label" with reference to stars.

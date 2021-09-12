@@ -1,0 +1,106 @@
+Introduction to Bigdata
+=========================
+
+What is Bigdata?
+
+Dealing with Data Science and ML
+
+Small Data ---> (Any Data that you can accommodate in a single machine)
+
+- Python Basics
+- Numpy
+- Pandas
+- Scipy (Hypothesis testing)
+- Sci-kit Learn 
+
+
+What if your data is stored in distributed processing engine?
+What if your data is stored in HDFS?
+
+
+
+
+Hadoop -> Its a distributed processing system with a distributed storage facility.
+
+			           Hadoop Framework
+			             |
+	-------------------------------------------------------------
+	|		             |				    |
+Storage Part of		Resource Management 		Processing Part of
+Hadoop			of Hadoop			Hadoop
+(HDFS)			(YARN)				(MR)
+Hadoop Distributed	Yet Another 			Map Reduce
+File System		Resource Negotiator
+
+
+Hadoop is 100% free.
+Hadoop is reliable but Hadoop only supports BATCH PROCESSING.
+
+
+
+
+Raw Data ---> Data Engineers ---> Prepare your data
+				  Perform some analysis(EDA)
+
+
+	 ---> ML Engineers -----> Create model out of the data
+				  and deploy the same
+
+	
+	 ---> Data Scientist ---> Manging the above and
+				  approving the models
+
+
+
+Data Acquisition --> Data Preprocessing --> Data Transformation 
+(Apache Sqoop,		(Hadoop MR)		(Hadoop MR)
+Apache Flume,		(Spark Core)		(Spark Core)
+Apache Kafka)		(Spark SQL)		(Spark SQL)
+			(Hive)			(Hive)
+			(Pig)			(Pig)
+			(Pyspark)		(Pyspark)
+
+Data View Layer ---> BI/AI layer
+(Cassandra)		(Python -scikitLearn,numpy,pandas etc)
+(HBase)			(PySpark)
+(MongoDB)		(SparkScala)
+(Redis)			(SparkJava)
+(Riak)			(SparkR)
+
+
+Q1)In case if we have huge data, do we train the model at once with all the data or do we tain the model with chunks?
+
+All Data (Subject to tool that you use)
+
+
+Q2)what is the ideal system configuration that generally used for data sceince projects.
+
+Resources must always be calculated based on Capacity Planning!!
+Practice---> RAM: 16GB RAM, HDD: 200GB, Windows 10, Anaconda Navigator
+
+
+Q3)same way what will be the good answer if they asked about data size (I know it varies between projects). When we say something it should be meaningful.
+
+Data Quality is never judged by Data Size. Its judged based on completeness and relevance with the use-case.
+
+
+Q4)In general how about the project team size, how the work will be distributed among the team memebers.
+
+https://www.quora.com/Do-I-need-to-be-the-best-programmer-to-become-a-data-scientist
+
+Q5)Generally what are all the environments invloved in data science projects (dev/..uat/prodcution)
+
+Dev/Test/Quality/Deployment/Handover
+
+
+
+
+
+
+
+
+
+
+
+
+

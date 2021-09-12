@@ -1,0 +1,5 @@
+Question 1:
+Create a model that can predict the price of the house based on characteristics of house and area population.
+
+Question 2: 
+Create a model that can classify Iris flowers as Setosa , Versicolor and Virginica based on flower characteristics.

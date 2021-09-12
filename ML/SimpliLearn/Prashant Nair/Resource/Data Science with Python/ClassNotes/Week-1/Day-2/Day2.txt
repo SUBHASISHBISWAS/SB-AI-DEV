@@ -1,0 +1,96 @@
+Data Science using Python --- Day 2
+====================================
+
+Agenda:
+-------
+Python Basics
+	- Datatypes
+	- User Input/Interaction
+	- Arithmetic Operators
+	- Typecasting
+	- Lists
+	- Dictionaries
+	- Booleans
+	- Tuples
+	- Sets
+	- Conditional Operators
+	- Loops
+	- Functions
+	- Lambda Expressions
+
+Exercises
+
+
+Datatypes
+=========
+
+			Datatypes
+			    |
+		---------------------------
+		|			   |
+	     Numbers			String
+		|			"Prashant"
+	-----------------
+	|		|
+	Integer	    Float
+	1,2,3	    1.1,2.1
+	(32-bit & 64 bit)
+	(CPU)
+
+
+
+Environment ---- Jupyter Notebook
+
+To start Jupyter notebook:
+============================
+1. Create a folder to make it root directory (C:\PythonPratice)
+
+2. Open Anaconda Prompt (Already installed Anaconda Python). Recommended to use this window with admin rights.
+
+3. Navigate to your folder location
+
+4. Start Jupyter Notebook
+
+	jupyter notebook
+
+5. Copy the jupyter notebook link on your favourite browser and access the UI
+
+
+Typecasting
+============
+Typecasting functions:
+
+Integer : int()
+Float : float()
+String: str()	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+Use-case (Melbourne House Price Analysis)
+==========================================
+You need to create a model that can predict the price of house based on Car Parking availability, Landsize, BuildingArea, YearBuilt
+
+1. Loading the data (pandas)
+2. Seperate the data with features and label.
+3. Check for missing data and repair the same
+4. Check for categorical data and repair the same
+5. Perform Numerical data Handling

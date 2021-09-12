@@ -1,0 +1,155 @@
+Data Science using Python ----- Day 8
+======================================
+Trainer: Prashant Nair
+
+Agenda
+-------
+Q&A requests
+	- Handling inappropriate data
+	- Dynamic Dummy Variable Creation for getDummies
+	- Decision Boundary in Classification
+What are Outliers
+Outlier Detection and Removal using Python
+Unsupervised Learning
+Clustering using KMeans
+Project Discussion (MovieLens Assignment)
+
+
+Handling inappropriate data
+==============================
+
+The only thing that will help you to deal with inappropriate data is having enough DOMAIN KNOWLEDGE !!!
+
+Guidelines by Prashant Nair:
+--------------------------------
+1. Identify the type of data for each column. *(Numerical, categorical and ordinal)
+
+2. Check and remove all duplicate records and columns from the DATAFRAME
+
+3. For numerical columns, identify whether the data is continous or discrete.
+
+   If your data is continous, check with reference to the domain if the following is allowed or not,
+		1. Negative Numbers
+		2. Positive Numbers
+		3. Decimals allowed or just Integers are expected.
+  
+   If your data is discrete, check the following with reference to the domain,
+		1. Range of the number allowed (e.g. for Marks column(max 100) (0 - 100) )
+		2. Decimals allowed or just integer expected
+
+4. For categorical columns, perform the following,
+	1. Get the unique values of the column
+	2. Handle the data which has spelling errors, case errors (lowercase, uppercase etc)
+	3. Check whether the groups shown in the unique values match the domain specification.
+
+5. For ordinal columns, perform the following,
+	1. Get the unique values of the column
+	2. Handle the data which has spelling errors, case errors (lowercase, uppercase etc) 
+	3. Check whether the groups shown in the unique values match the domain specification.
+	4. Check the mathematical weightage of  each unique group. Ensure it match the domain specification. 
+	5. If no mathematical weightage present at column, ensure you build the same.
+
+		e.g Ratings		Ratings
+		    --------   -->      ---------
+		     5 star		  5
+		     2 star		  2	
+		     3 star		  3
+
+6. Dealing with date columns [Date has significance only when you are dealing with Time Series Analysis]
+	1. Convert the date column into datetime datatype
+	2. Ensure the row index for the dataframe is date column
+	3. Incase of missing values on date column, ideally it is recommended to delete the record or take mode only            if domain specification supports the same.
+
+
+
+What are Outliers
+==================
+Outliers are extreme values that affect the model performance and accuracy.
+
+Salary
+======
+10000
+20000
+3000
+40000000000 --- Outlier
+
+Question: How to handle Outlier / treat Outliers?
+1. Use Domain Knowledge
+2. Use IQR (Inter Quartile Range) --- Statistical Method
+
+
+Stages of Data Handling 
+========================
+
+1. Raw Data ---> 
+2. Handle Inappropriate Data ---> 
+3. Handling Missing Data ---> 
+4. Handling Categorical Data --> 
+5. Handling Ordinal data ----> 
+6. Perform Outlier Detection and Elimination ----> 
+7. Feature Scaling ---> 
+8. Train/Test Split --> 
+9. Model ---> 
+10.Accuracy/Generalization Check ---> 
+11.Feature Engineering (if Reqd)---> 
+12.Final Model ---> 
+13.Deploy
+
+
+
+
+Unsupervised Learning
+========================
+
+You will have features . Your job is to find,
+1. Hidden patterns (Time Series and Dimensionality Reduction)
+2. Hidden Clusters (Clustering Techniques - e.g. KMeans)
+3. Forecasting based on patterns (Time Series)
+
+Clustering using KMeans
+------------------------
+
+Creating Groups based on distance formula
+K-Means
+
+You need to assume K value where K is no of clusters/groups. To guess the number of groups you can try the following:
+1. Perform EDA to check if dataset can form cluster
+2. Use k-means++ inertia (Elbow Method)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

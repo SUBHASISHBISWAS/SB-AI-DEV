@@ -1,0 +1,8 @@
+{
+    "python.linting.enabled": false,
+    "cSpell.words": [
+        "imread",
+        "imshow",
+        "imwrite"
+    ]
+}

@@ -1,0 +1,26 @@
+<html>
+<title>HR Salary Predictor</title>
+        	 	<link rel="stylesheet" media="screen" href="static/bootstrap.min.css">
+        	 	<link rel="stylesheet" href="static/bootstrap-theme.min.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="container">
+<h2>HR Salary Predictor</h2>
+<form action="" method="post" role="form">
+    
+<div class="form-group">
+      <label for="name">Years Of Experience:</label>
+<input type="text" class="form-control" id="yexperience" name="yexperience" placeholder="Enter Employee's Experience"></div>
+<button type="submit" class="btn btn-success">Submit</button>
+</form>
+{% with messages = get_flashed_messages(with_categories=true) %}
+  <!-- Categories: success (green), info (blue), warning (yellow), danger (red) -->
+  {% if messages %}
+    {% for category, message in messages %}
+      <div class="alert alert-{{ category }} alert-dismissible" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <!-- <strong>Title</strong> --> <h3>{{ message }}</h3>
+    {% endfor %}
+  {% endif %}
+{% endwith %}
+</div>
+</html>

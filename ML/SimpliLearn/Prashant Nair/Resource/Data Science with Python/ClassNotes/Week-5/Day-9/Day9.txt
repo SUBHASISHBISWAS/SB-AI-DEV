@@ -1,0 +1,218 @@
+
+Hypothesis Testing
+===================
+
+Types of tests that you can perform:
+
+				Hypothesis Testing
+					|
+	-------------------------------------------------------------------------------------------------
+	|				|				|				|
+Normality Test			Correlation Test		Parametric Test			Non-parametric
+To check whether we have	To check whether two colns 	Used to compare the 	Used to compare the colns
+a normalized data or not	are correlated or not		colns are same or	are same or different
+								different
+								(Normalized Data)	(Non-normalized Data)
+
+1. Shapiro-Wilk Test		1. Pearson's co-efficient	1. t-test(Student)	1. Wilcox Signed Rank Test
+2. Anderson-Darling Test	   correlation test		2. Paired t-test	2. Kruskal Wallis Test(H-												Test)
+				2. Spearman's Rank Test for	3. ANOVA		3. Friedman Test		
+				   correlation		
+				3. Kendall's Rank Test for 
+				   correlation
+				4. Chi-squared Test
+
+
+
+
+
+
+
+Use-case: 50_Startups.csv
+Features: R&DSpend: Numerical Data
+	  Administration: NUmerical Data
+          Marketing: Numerical Data
+          State: Categorical
+
+Label: Profit: Numerical Data
+
+Algo: Regression Based Algorithms
+	a. Linear Regression (Simple, Multiple, Polynomial) 
+		- There must exists linear relationship(positive,negative) between features and label
+		- The data must a normalized data (Bell curve) (Guassian Distribution)
+
+	b. Support Vector Regression
+		- There must exists linear relationship(positive,negative) between features and label
+		- You can give be Gaussian distribution or any distribution
+
+	c. Decision Tree Regression
+		- There must exists linear relationship(positive,negative) between features and label
+	d. Random Forest Regression
+		- There must exists linear relationship(positive,negative) between features and label
+	e. XGBoost
+		- There must exists linear relationship(positive,negative) between features and label
+
+Correlation Test for Hypothesis Testing
+========================================
+
+				Correlation Test
+					|
+			-----------------------------------------
+			|				        |
+	Linear Relationship 				Monotonic Relationship
+	1. Pearson's Correlation Coeff Test		1. Spearman's Rank Test
+		(Feature and Label			2. Kendall's Rank Test
+		must be NUMERIC)			  (Feature and Label
+							    must be NUMERIC)
+
+Test for Categorical Variable
+===============================
+If any one variable is categorical, go for CHI Square test
+
+Rules of Chi-square:
+
+1. Feature: Numerical , Label: Categorical
+2. Feature: Categorical ,  Label: Numerical
+3. Feature: Categorical , Label: Categorical
+
+Chi-square Test - Whether the variables are related or independent.
+
+Question: Is there any relationship between State and Profit?
+
+Null Hypothesis(H0): State and Profit are independent of each other.
+Alternate Hypothesis (H1): State and Profit have some form of relationship.
+
+Test used: Chi-square
+
+Steps to perform Chi-square:
+	1. Create Contigency Table which holds data in numeric representation
+	2. Apply chi-square on contigency Table
+	3. Check your Hypothesis
+
+
+
+
+
+
+
+
+
+Normality Test: To check whether my column follows normal distribution or not (Guassian Dist). There may be some algorithms which will require your data to be normalized. For that algo we do this test.
+
+	e.g. Linear Regression, LogisticRegression, NaiveBayes
+
+
+Lets assume R&D Spend, Administration, Marketing Spend is selected as features for my LinearRegression. Now lets check whether each column are following Guassian Distribution or not.
+
+Null Hypothesis (H0) : R&D Spend is not Normal Distribution
+Alternate Hypothesis (H1): R&D Spend is Normally distributed
+
+Test:
+1. Shapiro-Wilk Test
+2. Anderson-Darling Test
+
+
+Parametric and Non-parametric Test:
+
+Use of This test: This test is used to identify whether the given columns are same or different(Statistical Weightage). 
+Official Statistics Definition: To check whether the columns are significantly different
+
+Null Hypothesis (H0) --> Columns are equal
+Alternate Hypothesis (H1) --> Columns are unequal(different)
+
+
+Parametric Test:
+
+If you have only 2 columns to test:
+	1. Student t-test
+	2. Paired Student t-test
+
+If you have more than 2 columns to test:
+	1.  ANOVA (Analysis of Variance Test)
+
+
+Non-parametric Test:
+
+If you have only 2 columns to test:
+	1. Wilcoxon Signed-Rank Test
+	2. Mann-Whitney U test
+
+If you have more than 2 columns to test:
+	1. Kruskal-Wallis H-test
+	2. Friedman Test
+
+
+
+
+
+
+
+NLP --- Natural Language Processing
+====================================
+
+				Non-Numeric Features
+					|
+		---------------------------------------------------------
+		|			|				|
+	Categorical			Ordinal			Pure Text Data
+	(LabelEncoder			(Replace values		(Use NLP to convert the data into numeric weights)
+	 OneHotEncoder)		with relevant numeric values)
+	(getDummies)
+
+
+NLP ---> Natural Language Processing ----> English
+
+Rules:
+1. There exists no punctuations
+2. There exists no stopwords (Stopwords are those words which has no grammar impact on the data.)
+3. Sentences must be converted to words to form BagOfWords
+
+	BagofWords -----> TF-IDF(Term Frequency     ---------> frequency weights of each word
+				Inverse Doc Frequency)
+
+Using the freq weights the machine can identify the words and its nature
+
+Package: sklearn ( CountVectorizer, TDIDFTransformer )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
