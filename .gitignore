@@ -131,3 +131,5 @@ dmypy.json
 .tmp.driveupload
 .tmp.drivedownload
 .DS_Store
+
+**/.DS_Store
