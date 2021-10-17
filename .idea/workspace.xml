@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17093c07-9dd3-47ec-ba46-9c915478a3e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_11-17-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-02-56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-19-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-19-58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-20-48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-21-32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-22-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-22-46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-23-21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-23-59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-24-34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-25-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_19-44-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_19-53-47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_4.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_5.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_6.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_7.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SB-AI-DEV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SB-AI-DEV.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/Pluralsight/Janani Ravi/building-regression-models-scikit-learn/02/demos/code/03-SimpleRegression_CategoricalValues_ExamScores.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Pluralsight/Janani Ravi/building-regression-models-scikit-learn/02/demos/code/03-SimpleRegression_CategoricalValues_ExamScores.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/1-ExploringTheAutomobileMpgDataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/Building a Simple Linear Model.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/Data/auto-mpg-processed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/Data/auto-mpg-processed.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zcTPi0DIUxR5a9tGngryKULMJe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
