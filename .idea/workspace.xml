@@ -5,33 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17093c07-9dd3-47ec-ba46-9c915478a3e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_11-17-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-02-56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-19-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-19-58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-20-48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-21-32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-22-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-22-46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-23-21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-23-59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-24-34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-25-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_19-44-18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_19-53-47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_6.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_7.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SB-AI-DEV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SB-AI-DEV.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Pluralsight/Janani Ravi/building-regression-models-scikit-learn/02/demos/code/03-SimpleRegression_CategoricalValues_ExamScores.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Pluralsight/Janani Ravi/building-regression-models-scikit-learn/02/demos/code/03-SimpleRegression_CategoricalValues_ExamScores.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/1-ExploringTheAutomobileMpgDataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/Building a Simple Linear Model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/Data/auto-mpg-processed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/Data/auto-mpg-processed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Building a Simple Linear Model_0.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Building a Simple Linear Model_2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Building a Simple Linear Model_3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Building a Simple Linear Model_4.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Building a Simple Linear Model_5.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Building a Simple Linear Model_6.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Building a Simple Linear Model_7.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Building a Simple Linear Model_Final.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/Pluralsight/Janani Ravi/building-regression-models-scikit-learn/02/demos/code/04-MultipleRegressionModels_AutomobileMpg.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Pluralsight/Janani Ravi/building-regression-models-scikit-learn/02/demos/code/04-MultipleRegressionModels_AutomobileMpg.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/1-ExploringTheAutomobileMpgDataset_7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Building a Simple Linear Model.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
