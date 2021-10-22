@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17093c07-9dd3-47ec-ba46-9c915478a3e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-17_18-20-48.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-21_18-38-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-21_20-06-31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-21_20-06-31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-21_20-26-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-21_20-34-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-21_20-59-34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-21_21-03-33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-21_21-12-47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-21_21-52-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-21_21-55-31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-21_22-03-53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-21_22-09-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Lasso, Ridge and Elastic Net Regression.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Lasso, Ridge and Elastic Net Regression_1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Lasso, Ridge and Elastic Net Regression_2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Lasso, Ridge and Elastic Net Regression_3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/PDFs/Lasso, Ridge and Elastic Net Regression_final.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/Building Regularized Regression Models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/Lasso, Ridge and Elastic Net Regression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bgPID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bgPID.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/Lasso, Ridge and Elastic Net Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Janani Ravi/Lasso, Ridge and Elastic Net Regression.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
