@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17093c07-9dd3-47ec-ba46-9c915478a3e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ML/SB/LinerRegression/Images/2021-10-23_14-36-33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Image/2021-10-23_14-36-33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/ARIMA.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Data/airline_passengers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Data/perrin-freres-monthly-champagne.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Data/sp500sub.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/ETSChampagne.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/EWMA.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Holt-Winter.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Holt_Linear.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/SES.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/StockPrediction.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/WalkforwardValidation.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/Udemy/Lazy Programmer/Time Series Analysis, Forecasting, and Machine Learning/machine_learning_examples-master/Colab/ARIMA_[TS].ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Udemy/Lazy Programmer/Time Series Analysis, Forecasting, and Machine Learning/machine_learning_examples-master/Colab/ARIMA_[TS].ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/Udemy/Lazy Programmer/Time Series Analysis, Forecasting, and Machine Learning/machine_learning_examples-master/Colab/ETS_Champagne.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Udemy/Lazy Programmer/Time Series Analysis, Forecasting, and Machine Learning/machine_learning_examples-master/Colab/ETS_Champagne.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/Udemy/Lazy Programmer/Time Series Analysis, Forecasting, and Machine Learning/machine_learning_examples-master/Colab/ETS_Stocks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Udemy/Lazy Programmer/Time Series Analysis, Forecasting, and Machine Learning/machine_learning_examples-master/Colab/ETS_Stocks.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/Udemy/Lazy Programmer/Time Series Analysis, Forecasting, and Machine Learning/machine_learning_examples-master/Colab/EWMA_and_Holt_Winters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Udemy/Lazy Programmer/Time Series Analysis, Forecasting, and Machine Learning/machine_learning_examples-master/Colab/EWMA_and_Holt_Winters.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/Udemy/Lazy Programmer/Time Series Analysis, Forecasting, and Machine Learning/machine_learning_examples-master/Colab/Price_Simulation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Udemy/Lazy Programmer/Time Series Analysis, Forecasting, and Machine Learning/machine_learning_examples-master/Colab/Price_Simulation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/Udemy/Lazy Programmer/Time Series Analysis, Forecasting, and Machine Learning/machine_learning_examples-master/Colab/Walk_Forward_Validation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Udemy/Lazy Programmer/Time Series Analysis, Forecasting, and Machine Learning/machine_learning_examples-master/Colab/Walk_Forward_Validation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bgPID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bgPID.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
