@@ -5,55 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17093c07-9dd3-47ec-ba46-9c915478a3e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ML/SB/Experiment/Model Deployment/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/Experiment/Model Deployment/.idea/Model Deployment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/Experiment/Model Deployment/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/Experiment/Model Deployment/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/Experiment/Model Deployment/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/Experiment/Model Deployment/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/Experiment/Model Deployment/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/Experiment/Model Deployment/model.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/Experiment/Model Deployment/student-placement-predictor.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/Experiment/Model Deployment/students_placement.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/Experiment/Model Deployment/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/00-Introduction-to-Forecasting-Revised.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/02-Autoregression-AR.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/03-Descriptive-Statistics-and-Tests.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/04-Choosing-ARIMA-Orders.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/05-ARMA-and-ARIMA.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/Data/DailyTotalFemaleBirths.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/Data/TradeInventories.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/Data/airline_passengers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/Data/samples.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/Data/uspopulation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/Image/2021-10-26_10-23-43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/Image/2021-10-26_15-39-36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/Image/2021-10-26_15-42-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/Image/2021-10-26_17-24-21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/PDFs/00-Introduction-to-Forecasting-Revised_1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Image/2021-09-13_18-13-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Image/2021-09-13_18-30-52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Image/2021-09-13_18-42-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Image/2021-09-13_19-17-34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Image/2021-09-13_19-23-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Image/2021-09-13_20-11-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Image/2021-10-23_14-36-33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Image/2021-10-24_17-45-00.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/Image/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/Projects/Pianalytix/40 Real World MLandDS Projects 2021/Download Kaggle Dataset.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/Projects/Pianalytix/dogbreedidfromcomp.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/01_ACFandPACF.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/PDFs/01_ACFandPACF.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML/Udemy/Pianalytix/40 Real World MLandDS Projects 2021/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Image/2021-09-13_18-13-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Image/2021-09-13_18-30-52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Image/2021-09-13_18-42-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Image/2021-09-13_19-17-34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Image/2021-09-13_19-23-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Image/2021-09-13_20-11-16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Image/2021-10-23_14-36-33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Image/2021-10-24_17-45-00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Image/f1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Udemy/jose portilla/Python for Time Series Data Analysis/UDEMY_TSA_FINAL/06-General-Forecasting-Models/02-Autoregression-AR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Udemy/jose portilla/Python for Time Series Data Analysis/UDEMY_TSA_FINAL/06-General-Forecasting-Models/02-Autoregression-AR.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Udemy/jose portilla/Python for Time Series Data Analysis/UDEMY_TSA_FINAL/06-General-Forecasting-Models/03-Descriptive-Statistics-and-Tests.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Udemy/jose portilla/Python for Time Series Data Analysis/UDEMY_TSA_FINAL/06-General-Forecasting-Models/03-Descriptive-Statistics-and-Tests.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Udemy/jose portilla/Python for Time Series Data Analysis/UDEMY_TSA_FINAL/06-General-Forecasting-Models/04-Choosing-ARIMA-Orders.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Udemy/jose portilla/Python for Time Series Data Analysis/UDEMY_TSA_FINAL/06-General-Forecasting-Models/04-Choosing-ARIMA-Orders.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Udemy/jose portilla/Python for Time Series Data Analysis/UDEMY_TSA_FINAL/06-General-Forecasting-Models/05-ARMA-and-ARIMA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Udemy/jose portilla/Python for Time Series Data Analysis/UDEMY_TSA_FINAL/06-General-Forecasting-Models/05-ARMA-and-ARIMA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/02-Autoregression-AR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/02-Autoregression-AR.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/ACFandPACF.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Lazy Programmers/Time Series Analysis, Forecasting, and Machine Learning/ACFandPACF.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/Udemy/jose portilla/Python for Time Series Data Analysis/UDEMY_TSA_FINAL/06-General-Forecasting-Models/01-ACF-and-PACF.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Udemy/jose portilla/Python for Time Series Data Analysis/UDEMY_TSA_FINAL/06-General-Forecasting-Models/01-ACF-and-PACF.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bgPID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bgPID.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="Vcs.Log.Tabs.Properties">
