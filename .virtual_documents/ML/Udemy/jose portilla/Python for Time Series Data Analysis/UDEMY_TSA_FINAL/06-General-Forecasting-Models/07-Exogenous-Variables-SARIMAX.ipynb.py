@@ -112,6 +112,8 @@ end=len(train)+len(test)-1
 predictions = results.predict(start=start, end=end, dynamic=False).rename('SARIMA(1,0,0)(2,0,0,7) Predictions')
 
 
+
+
 # Plot predictions against known values
 title='Restaurant Visitors'
 ylabel='Visitors per day'

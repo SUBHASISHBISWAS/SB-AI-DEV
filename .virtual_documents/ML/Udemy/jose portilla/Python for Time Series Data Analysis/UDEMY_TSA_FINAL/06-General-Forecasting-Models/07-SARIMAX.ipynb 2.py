@@ -188,7 +188,16 @@ So the seasonality of this data happens to be on a weekly basis, which makes sen
 result.seasonal.plot(figsize=(15,5))
 
 
+'''
+we're first
 
+going to fit to just a classic Suruma based model.
+
+So we'll just take a seasonal or remodel and see how it performs.
+
+So the first thing going to do is do a train test split.
+'''
+len(df1)
 
 
 from statsmodels.tsa.stattools import adfuller
@@ -221,166 +230,5 @@ def adf_test(series,title=''):
 adf_test(df1['total'])
 
 
-'''
-And since we believe it to be weekly, given the plots that we just saw of, say,
-M is equal to seven.
-'''
-
-# For SARIMA Orders we set seasonal=True and pass in an m value
-auto_arima(df1['total'],seasonal=True,m=7).summary()
-
-
-'''
-we're first
-
-going to fit to just a classic Suruma based model.
-
-So we'll just take a seasonal or remodel and see how it performs.
-
-So the first thing going to do is do a train test split.
-
-So we're going to try to forecast a month into the future for restaurant visits, 
-
-which means our test set should also be about a month.
-'''
-len(df1)
-
-
-# Set four weeks for testing
-train = df1.iloc[:436]
-test = df1.iloc[436:]
-
-
-'''
-
-So we already split the data into a training set and a test set, and now we have our orders.
-
-So it's time to actually fit this model.
-
-now I'm only passing in the training data that it can fairly evaluate this model,
-
-
-my order for the p,d,q terms, for the Arima portion of the model are just (1, 0, 0) which 
-
-was reported back by auto Arima.
-
-for the seasonal order of the model will go ahead say (1,0,1,7)
-
-enforce_invertibility=False:
-
-And then the last parameter I need to provide here is this parameter of 
-inforce Inevitability.
-
-Now, the reason we have to enforce convertibility equal to false here is mainly 
-
-due to the way built stat's models library.
-
-Essentially, we already know about the auto regression representation, where the most 
-recent error can be written as a linear function of current and past observations.
-
-So we already know that we can write out this linear function.
-
-And the key part is for inconvertible process.Theta here is less than one.
-And so the most recent observations have higher weight than observations from the more 
-distant past.
-
-Which makes sense, right?
-
-That more recent data should hold the higher weight then further out data into the past.
-
-However, when you have a process where theta is greater than one, then the weights 
-increase as lags increase, which actually means the opposite.
-
-That the more distance observations have greater influence on the current error, 
-which is sometimes a peculiar situation.
-
-And when Theta is equal to exactly one, then the weights are constant and size and the 
-distance observations have the same influence as the recent observations.
-
-So these last two situations typically don't make much sense, and so we prefer this 
-inevitable process.
-
-However, the way that stat's models has built out the Sorina X model internally 
-It will try to force convertibility by forcing this theta to be less than one.
-And in some particular situations, that actually doesn't make sense and it'll force an error.
-
-So what we're going to do here is in order to avoid all those issues, we'll say 
-in force convertibility equal to false and a way to understand whether or not you 
-need to do that is simply run the model and see if you get the error.
-
-And the error you get is called value error, non-convertible starting M.A parameters found.
-
-So again, if you ever get the error.
-When you're running one of these models that auto Auriemma suggested of value error, 
-non-convertible starting M.A parameters found, that's totally OK.
-
-Just inside your SARIMAX call, go ahead and say inforce inevitability equal to 
-false and then that should remove that error.
-
-
-
-'''
-
-model=SARIMAX(train["total"],order=(1,0,0),seasonal_order=(1,0,1,7),enforce_invertibility=False)
-results=model.fit()
-results.summary()
-
-
-'''
-And we're going to do now is get predicted values into the future for our test set.
-
-'''
-start=len(train)
-end=len(train)+len(test)-1
-
-predictions=results.predict(start,end,dynamic=False).rename('SARIMA(1,0,0)(1,0,1,7) Predictions')
-predictions
-
-
-'''
-
-So we can see here in that second week, we're really doing quite well.
-
-But you know this for this particular week, there's a dip or maybe even a peak that 
-we didn't actually grab.
-
-So would it be interesting to see if for the situations where we didn't do such a 
-great job predicting? 
-
-
-And now we can see there was one holiday here that we didn't pick up on and there's 
-three holidays here in the USA for this last one, and you'll notice it kind of like 
-converges with these peaks.
-
-So it'll be interesting to see if adding in the holidays as exogenous variables 
-would actually improve our model.
-'''
-
-# Plot predictions against known values
-title='Restaurant Visitors'
-ylabel='Visitors per day'
-xlabel=''
-
-ax = test['total'].plot(legend=True,figsize=(12,6),title=title)
-predictions.plot(legend=True)
-ax.autoscale(axis='x',tight=True)
-ax.set(xlabel=xlabel, ylabel=ylabel)
-for x in test.query('holiday==1').index: 
-    ax.axvline(x=x, color='k', alpha = 0.3);
-
-
-'''
-The last thing I want to do is evaluate the model quantitatively 
-using root mean squared error.
-'''
-
-from statsmodels.tools.eval_measures import mse,rmse
-
-error1 = mse(test['total'], predictions)
-error2 = rmse(test['total'], predictions)
-
-print(f'SARIMA(1,0,0)(1,0,1,7) MSE Error: {error1:11.10}')
-print(f'SARIMA(1,0,0)(1,0,1,7) RMSE Error: {error2:11.10}')
-
-
-
+### Run <tt>pmdarima.auto_arima</tt> to obtain recommended orders
+This may take awhile as there are a lot of combinations to evaluate.

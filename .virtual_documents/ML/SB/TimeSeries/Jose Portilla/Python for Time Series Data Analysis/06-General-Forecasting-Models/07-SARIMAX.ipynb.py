@@ -383,4 +383,72 @@ print(f'SARIMA(1,0,0)(1,0,1,7) MSE Error: {error1:11.10}')
 print(f'SARIMA(1,0,0)(1,0,1,7) RMSE Error: {error2:11.10}')
 
 
+'''
+So so far, we've only run screamo based models on our data with a seasonal 
+
+component and the basic Arima components.
+
+Now we're going to add in the exegonous variable.
+
+In our case, it's going to be that holiday data.
+
+'''
+
+model = SARIMAX(train['total'],exog=train['holiday'],order=(1,0,0),seasonal_order=(1,0,1,7),enforce_invertibility=False)
+results = model.fit()
+results.summary()
+
+
+# Obtain predicted values
+start=len(train)
+end=len(train)+len(test)-1
+exog_forecast = test[['holiday']]  # requires two brackets to yield a shape of (35,1)
+predictions = results.predict(start=start, end=end, exog=exog_forecast).rename('SARIMAX(1,0,0)(1,0,1,7)) Predictions')
+
+
+# Plot predictions against known values
+title='Restaurant Visitors'
+ylabel='Visitors per day'
+xlabel=''
+
+ax = test['total'].plot(legend=True,figsize=(12,6),title=title)
+predictions.plot(legend=True)
+ax.autoscale(axis='x',tight=True)
+ax.set(xlabel=xlabel, ylabel=ylabel)
+for x in test.query('holiday==1').index: 
+    ax.axvline(x=x, color='k', alpha = 0.3);
+
+
+# Print values from SARIMA above
+print(f'SARIMA(1,0,0)(1,0,1,7) MSE Error: {error1:11.10}')
+print(f'SARIMA(1,0,0)(1,0,1,7) RMSE Error: {error2:11.10}')
+print()
+
+error1x = mse(test['total'], predictions)
+error2x = rmse(test['total'], predictions)
+
+# Print new SARIMAX values
+print(f'SARIMAX(1,0,0)(1,0,1,7)) MSE Error: {error1x:11.10}')
+print(f'SARIMAX(1,0,0)(1,0,1,7)) RMSE Error: {error2x:11.10}')
+
+
+model = SARIMAX(df1['total'],exog=df1['holiday'],order=(1,0,0),seasonal_order=(1,0,1,7),enforce_invertibility=False)
+results = model.fit()
+exog_forecast = df[478:][['holiday']]
+fcast = results.predict(len(df1),len(df1)+38,exog=exog_forecast).rename('SARIMAX(1,0,0)(1,0,1,7)) Forecast')
+
+
+# Plot the forecast alongside historical values
+title='Restaurant Visitors'
+ylabel='Visitors per day'
+xlabel=''
+
+ax = df1['total'].plot(legend=True,figsize=(16,6),title=title)
+fcast.plot(legend=True)
+ax.autoscale(axis='x',tight=True)
+ax.set(xlabel=xlabel, ylabel=ylabel)
+for x in df.query('holiday==1').index: 
+    ax.axvline(x=x, color='k', alpha = 0.3);
+
+
 
