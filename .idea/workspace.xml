@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17093c07-9dd3-47ec-ba46-9c915478a3e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/PDFs/03-Descriptive-Statistics-and-Tests.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/02-Autoregression-AR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/02-Autoregression-AR.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/03-Descriptive-Statistics-and-Tests.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/03-Descriptive-Statistics-and-Tests.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/04-Choosing-ARIMA-Orders.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/04-Choosing-ARIMA-Orders.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.virtual_documents/Python For Finance Portfolio Optimization.ipynb.py" beforeDir="false" afterPath="$PROJECT_DIR$/.virtual_documents/Python For Finance Portfolio Optimization.ipynb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML/SB/TimeSeries/Jose Portilla/Python for Time Series Data Analysis/06-General-Forecasting-Models/.co2_mm_mlo.csv.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python For Finance Portfolio Optimization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python For Finance Portfolio Optimization.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

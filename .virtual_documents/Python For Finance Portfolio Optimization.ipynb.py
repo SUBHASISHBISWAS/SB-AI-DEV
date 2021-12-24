@@ -12,12 +12,12 @@ plt.style.use('fivethirtyeight')
 #get the Stock symbol from portfolio
 #FAANG
 
-assets=['SBIN.NS','RELIANCE.NS','HDFCLIFE.NS','HDFCBANK.NS','TCS.NS']
+assets=['LTI.NS','BLUEDART.NS','TATAMOTORS.NS']
 
 #assign weight to stocks
 #all five stock to add upto=1 and assign equal amount of weights to the stocks
 #20% of each of this stock in this portfolio 
-weights=np.array([0.2,0.2,0.2,0.2,0.2])
+weights=np.array([0.33,0.33,0.33])
 
 
 #stock start and end date
@@ -133,7 +133,7 @@ print(latest_prices)
 
 
 weights=cleaned_weights
-da=DiscreteAllocation(weights,latest_prices,total_portfolio_value=50000)
+da=DiscreteAllocation(weights,latest_prices,total_portfolio_value=10000)
 
 allocation,left_over=da.lp_portfolio()
 
