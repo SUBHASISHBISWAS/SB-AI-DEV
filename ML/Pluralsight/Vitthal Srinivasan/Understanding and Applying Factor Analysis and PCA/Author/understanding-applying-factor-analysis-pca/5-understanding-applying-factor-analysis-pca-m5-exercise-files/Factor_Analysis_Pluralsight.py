@@ -49,7 +49,7 @@ pca2 = np.dot(stdYVars,eVector2.reshape(-1,1)).reshape(1,-1)
 pca3 = np.dot(stdYVars,eVector3.reshape(-1,1)).reshape(1,-1)
 
 
-xData = np.array(zip(pca1.T,pca2.T,pca3.T)).reshape(-1,3)
+xData = np.array(list(zip(pca1.T,pca2.T,pca3.T)).reshape(-1,3)
 yData = stdReturns["GOOG"]
 
 import statsmodels.api as sm
