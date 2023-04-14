@@ -139,7 +139,7 @@ DL/Pluralsight/Janani Ravi/Building Deep Learning Models Using PyTorch/Author/Da
 
 .virtual_documents
 
-/Users/subhasish/Documents/APPLE/SUBHASISH/Development/GIT/Interstellar/SB-AI-DEV/DL/Pluralsight/Janani Ravi/Building Deep Learning Models Using PyTorch/SB/Dataset/cifar-10-batches-py
+DL/Pluralsight/Janani Ravi/Building Deep Learning Models Using PyTorch/SB/Dataset/cifar-10-batches-py
 *.meta
 DL/Pluralsight/Janani Ravi/Building Deep Learning Models Using PyTorch/SB/Dataset/cifar-10-batches-py/data_batch_1
 DL/Pluralsight/Janani Ravi/Building Deep Learning Models Using PyTorch/SB/Dataset/cifar-10-batches-py/data_batch_2
@@ -153,10 +153,13 @@ DL/Pluralsight/Janani Ravi/Building Deep Learning Models Using PyTorch/SB/Datase
 
 
 
-/Users/subhasish/Documents/APPLE/SUBHASISH/Development/GIT/Interstellar/SB-AI-DEV/DL/CNN/Pluralsight/Janani Ravi/Building Deep Learning Models Using PyTorch/SB/Dataset
+/DL/CNN/Pluralsight/Janani Ravi/Building Deep Learning Models Using PyTorch/SB/Dataset
 
-/Users/subhasish/Documents/APPLE/SUBHASISH/Development/GIT/Interstellar/SB-AI-DEV/DL/CNN/YouTube/Dennis Madsen/SB/Datasets
+/DL/CNN/YouTube/Dennis Madsen/SB/Datasets
+
 
 DL/CNN/Pluralsight/Janani Ravi/Building Deep Learning Models Using PyTorch/SB/Dataset/flowers.zip
 
 DL/CNN/Pluralsight/Janani Ravi/Building Deep Learning Models Using PyTorch/SB/Dataset/cifar-10-python.tar.gz
+
+/DL/CNN/ChatGPT/data
