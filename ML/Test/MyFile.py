@@ -1,1 +1,6 @@
 print('hello')
+
+# create function to Add Method
+def add(a,b):
+    return a+b
+#code for liner regression
