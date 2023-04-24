@@ -17,3 +17,8 @@ def prepare_data():
 def test():
     pass
 
+#function to add two numbers
+def add(a,b):
+    return a+b
+
+
