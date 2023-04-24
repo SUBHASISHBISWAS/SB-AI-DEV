@@ -14,4 +14,6 @@ def logistic_regression():
 # ptreparing data for training
 def prepare_data():
     pass
+def test():
+    pass
 
