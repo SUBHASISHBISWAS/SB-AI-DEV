@@ -4,3 +4,6 @@ print('hello')
 def add(a,b):
     return a+b
 #code for liner regression
+
+def linear_regression():
+    pass
