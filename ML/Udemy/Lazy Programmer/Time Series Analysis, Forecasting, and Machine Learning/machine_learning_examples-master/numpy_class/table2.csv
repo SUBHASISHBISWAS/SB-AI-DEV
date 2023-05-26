@@ -1,12 +1,3 @@
-user_id,ad_id,click
-1,1,1
-1,2,0
-1,5,0
-2,3,0
-2,4,1
-2,1,0
-3,2,0
-3,1,0
-3,3,0
-3,4,0
-3,5,1
+version https://git-lfs.github.com/spec/v1
+oid sha256:01b2e9ab3ff7932f41101b39e7741190ad5a819d132bfd1f9a52f6e745b11aa1
+size 85

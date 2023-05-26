@@ -1,4 +1,3 @@
-user_id,email,age
-1,alice@gmail.com,20
-2,bob@gmail.com,25
-3,carol@gmail.com,30
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc5239f180cde55db370886401c3616aa1f1330a35b59eb8932c1bc84de928d4
+size 78
