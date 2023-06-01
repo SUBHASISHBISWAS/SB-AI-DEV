@@ -1,2 +1,2 @@
-model_checkpoint_path: "elu_64_early_stopping_weights"
-all_model_checkpoint_paths: "elu_64_early_stopping_weights"
+model_checkpoint_path: "spine_classification"
+all_model_checkpoint_paths: "spine_classification"
