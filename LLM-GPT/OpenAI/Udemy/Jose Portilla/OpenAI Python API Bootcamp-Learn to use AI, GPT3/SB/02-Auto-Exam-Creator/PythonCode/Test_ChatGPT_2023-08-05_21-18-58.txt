@@ -1,0 +1,25 @@
+
+
+Q1. What type of model is ChatGPT?
+
+A. Recurrent Neural Network
+B. Deep Neural Network
+C. Long Short Term Memory
+D. Generative Pre-trained Transformer
+E. Convolutional Neural Network
+
+
+Correct Answer: D. Generative Pre-trained Transformer
+
+
+Q2. What is the purpose of ChatGPT?
+
+A. To generate images
+B. To generate text
+C. To generate music
+D. To generate audio
+E. To generate videos
+
+
+Correct Answer: B. To generate text
+
