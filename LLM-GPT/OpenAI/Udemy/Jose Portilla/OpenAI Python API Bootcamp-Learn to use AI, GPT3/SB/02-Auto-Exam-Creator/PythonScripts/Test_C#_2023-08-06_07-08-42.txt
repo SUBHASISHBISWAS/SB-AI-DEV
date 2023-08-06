@@ -1,0 +1,25 @@
+
+
+Q1. What is the primary language used to write programs for the .NET Framework?
+A. Java
+B. Visual Basic 
+C. C#
+
+Correct Answer: C. C#
+
+
+Q2. What is the keyword to declare a method in C#?
+A. Method 
+B. Function 
+C. Sub
+
+Correct Answer: A. Method
+
+
+Q3. What is the keyword used to define a class in C#?
+A. Class 
+B. Object 
+C. Struct
+
+Correct Answer: A. Class
+
