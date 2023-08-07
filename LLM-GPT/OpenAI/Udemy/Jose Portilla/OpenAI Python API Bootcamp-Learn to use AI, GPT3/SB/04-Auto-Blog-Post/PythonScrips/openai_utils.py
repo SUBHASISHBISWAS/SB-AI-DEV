@@ -18,8 +18,8 @@ def create_prompt(title):
  Jan 31, 2023
  Title: {}
  tags: tech, machine-learning, radiology
- Summary:  I talk about the cons of machine learning in radiology. I explain why I think that AI will never replace the radiologist.
- Full text:""".format(title)
+ Summary:  I talk about the cons of machine learning. I explain why I think that {}.
+ Full text:""".format(title,title)
     return prompt
 
 def get_blog_from_openai(blog_title):
