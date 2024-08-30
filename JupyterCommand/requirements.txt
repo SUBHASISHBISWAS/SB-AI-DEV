@@ -1,2 +1,14 @@
+NumPy
+Pandas
+Matplotlib
+Seaborn
+SciPy
+Scikit-learn
+torch 
+torchvision 
+torchaudio
+Statsmodels
+Plotly
+NLTK
 pycaret
 tabulate
