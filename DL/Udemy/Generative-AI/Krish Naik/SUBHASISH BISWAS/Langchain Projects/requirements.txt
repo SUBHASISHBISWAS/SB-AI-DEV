@@ -21,3 +21,4 @@ arxiv
 wikipedia
 beautifulsoup4
 streamlit
+langchain_groq
