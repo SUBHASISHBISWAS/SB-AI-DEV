@@ -22,3 +22,7 @@ wikipedia
 beautifulsoup4
 streamlit
 langchain_groq
+fastapi
+uvicorn
+langserve
+sse_starlette
