@@ -26,3 +26,4 @@ fastapi
 uvicorn
 langserve
 sse_starlette
+pyPDF2
