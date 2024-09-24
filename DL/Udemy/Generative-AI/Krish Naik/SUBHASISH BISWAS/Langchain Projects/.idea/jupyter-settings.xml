@@ -7,7 +7,7 @@
           <value>
             <JupyterConnectionParameters>
               <option name="managed" value="true" />
-              <option name="sdkName" value="" />
+              <option name="sdkName" value="C:\GIT\SB-AI-DEV\DL\Udemy\Generative-AI\Krish Naik\SUBHASISH BISWAS\Langchain Projects\venv" />
             </JupyterConnectionParameters>
           </value>
         </entry>
