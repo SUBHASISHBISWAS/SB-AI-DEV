@@ -27,3 +27,4 @@ uvicorn
 langserve
 sse_starlette
 pyPDF2
+openpyxl
