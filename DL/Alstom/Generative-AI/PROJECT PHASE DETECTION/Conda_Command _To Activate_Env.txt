@@ -1,0 +1,12 @@
+
+conda create -p venv python=3.11 -y
+
+
+
+conda activate "/Users/subhasish/GIT/Interstellar/SB-AI-DEV/DL/Udemy/Generative-AI/Krish Naik/SUBHASISH BISWAS/Langchain Projects/venv"
+
+conda deactivate
+
+
+
+conda activate "C:\GIT\SB-AI-DEV\DL\Udemy\Generative-AI\Krish Naik\SUBHASISH BISWAS\Langchain Projects\venv"
