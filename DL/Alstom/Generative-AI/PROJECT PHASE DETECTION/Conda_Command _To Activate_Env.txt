@@ -3,10 +3,11 @@ conda create -p venv python=3.11 -y
 
 
 
-conda activate "/Users/subhasish/GIT/Interstellar/SB-AI-DEV/DL/Udemy/Generative-AI/Krish Naik/SUBHASISH BISWAS/Langchain Projects/venv"
-
+conda activate "/Users/subhasish/GIT/Interstellar/SB-AI-DEV/DL/Alstom/Generative-AI/PROJECT PHASE DETECTION/venv"
 conda deactivate
 
 
 
 conda activate "C:\GIT\SB-AI-DEV\DL\Udemy\Generative-AI\Krish Naik\SUBHASISH BISWAS\Langchain Projects\venv"
+
+ pip install -r requirements.txt
