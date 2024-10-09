@@ -29,3 +29,7 @@ sse_starlette
 pyPDF2
 openpyxl
 Jinja2
+torch
+transformers
+numpy
+AzureOpenAI
