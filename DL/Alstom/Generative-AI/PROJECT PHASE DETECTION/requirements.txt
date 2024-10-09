@@ -28,3 +28,4 @@ langserve
 sse_starlette
 pyPDF2
 openpyxl
+Jinja2
