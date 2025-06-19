@@ -11,3 +11,5 @@ langchain-text-splitters
 langchain-openai
 chromadb
 sentence_transformers
+faiss-cpu
+langchain-ollama
