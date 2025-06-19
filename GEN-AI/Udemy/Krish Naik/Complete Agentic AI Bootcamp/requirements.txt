@@ -13,3 +13,5 @@ chromadb
 sentence_transformers
 faiss-cpu
 langchain-ollama
+chromadb
+langchain_chroma
