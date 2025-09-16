@@ -15,3 +15,4 @@ faiss-cpu
 langchain-ollama
 chromadb
 langchain_chroma
+beautifulsoup4
