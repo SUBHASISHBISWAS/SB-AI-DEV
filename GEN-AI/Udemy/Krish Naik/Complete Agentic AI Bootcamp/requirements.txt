@@ -16,3 +16,8 @@ langchain-ollama
 chromadb
 langchain_chroma
 beautifulsoup4
+langchain_groq
+langchain_core
+fastapi
+uvicorn
+langserve
