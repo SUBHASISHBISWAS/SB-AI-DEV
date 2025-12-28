@@ -1,0 +1,17 @@
+.pytest_cache
+**/**.csv
+**/**.pdf
+**/**.csv
+**/**.mkv
+**/**.mp3        
+**/**.jsonl
+**/**.txt
+**/out/**
+**/data/**
+gitleaks-report.json
+.DS_Store
+**/**/.DS_Store
+**/**/record_manager_cache.sql
+vision/*.png
+.env
+mt-face.zip
