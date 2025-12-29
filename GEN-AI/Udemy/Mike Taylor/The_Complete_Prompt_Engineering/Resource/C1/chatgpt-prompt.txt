@@ -1,0 +1,34 @@
+User: ----------------------------------------
+
+Brainstorm a list of product names for a shoe that fits any foot size, in the style of Steve Jobs.
+
+Return the results as a comma separated list, in this format:
+Product description: A shoe that fits any foot size
+Product names: [list of 3 product names]
+
+## Examples
+Product description: A refrigerator that dispenses beer
+Product names: iBarFridge, iFridgeBeer, iDrinkBeerFridge
+
+Product description: A watch that can tell accurate time in space
+Product names: iNaut, iSpace, iTime
+
+Product description: A home milkshake maker
+Product names: iShake, iSmoothie, iShake Mini
+
+ChatGPT: ----------------------------------------
+
+Product description: A shoe that fits any foot size
+Product names: iFitFoot, iPerfectFit, iShoeSize
+
+User: ----------------------------------------
+
+Please rate the product names based on their catchiness, uniqueness, and simplicity. Rate them on a scale from 1-5, with 5 being the highest score. Respond only with a table containing the results.
+
+ChatGPT: ----------------------------------------
+
+| Product Name   | Catchiness | Uniqueness | Simplicity |
+|----------------|------------|------------|------------|
+| iFitFoot       | 4          | 4          | 4          |
+| iPerfectFit    | 5          | 4          | 3          |
+| iShoeSize      | 3          | 3          | 5          |

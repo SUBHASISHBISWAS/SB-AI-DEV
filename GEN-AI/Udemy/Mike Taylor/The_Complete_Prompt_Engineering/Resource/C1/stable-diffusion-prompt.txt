@@ -1,0 +1,5 @@
+Prompt: neon pink and blue sneakers, intricate demonic, scary, beautiful, platemail armor, sleek iridescent details, designed by ridley scott alien. product photography, extremely detailed, studio lighting, 3 5 mm, dslr
+
+Negative: soft, misshapen, corners, straps, laces
+
+Image: https://www.nike.com/gb/t/go-flyease-easy-on-off-shoes-nfbRvV/DR5540-002
