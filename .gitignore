@@ -1,3 +1,51 @@
+
+# Build folders
+bin/
+obj/
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Debug/Release
+Debug/
+Release/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test Results
+TestResults/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish output
+publish/
+
+# Azure Functions
+local.settings.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
