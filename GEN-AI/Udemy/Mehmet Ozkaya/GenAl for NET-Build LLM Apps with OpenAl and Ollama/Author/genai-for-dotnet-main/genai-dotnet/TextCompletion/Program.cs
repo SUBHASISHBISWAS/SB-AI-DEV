@@ -32,7 +32,6 @@ IChatClient client =
 #endregion
 
 #region Streaming
-
 //string prompt = "What is AI ? explain max 200 word";
 //Console.WriteLine($"user >>> {prompt}");
 
@@ -41,6 +40,7 @@ IChatClient client =
 //{
 //    Console.Write(message.Text);
 //}
+
 
 #endregion
 

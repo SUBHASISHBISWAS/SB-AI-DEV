@@ -6,6 +6,7 @@
         <RootNamespace>_01_TextCompletion</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <UserSecretsId>9b1cd4f3-8cc0-4ba6-8d8d-3eff57779f79</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
