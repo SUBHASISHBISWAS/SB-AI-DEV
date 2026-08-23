@@ -1,0 +1,7 @@
+tensorflow==2.18.1
+keras
+tensorflow-metal==1.2.0
+matplotlib
+pandas
+scikit-learn
+numpy
