@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ClientModel;
+using System.Text.Json.Serialization;
 using Azure.Identity;
 using Azure.AI.OpenAI;
 using Microsoft.Agents.AI;
@@ -8,12 +9,14 @@ using OpenAI.Chat;
 
 
 // 1. Define the variables we extracted from Microsoft Foundry
-var endpoint = Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT") ?? throw new InvalidOperationException("AZURE_OPENAI_ENDPOINT is not set.");
-var deploymentName = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-5-mini";
+var endpoint=Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT")?? throw new InvalidOperationException();
+var model = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-4o";
+var apiKey=Environment.GetEnvironmentVariable("ALSTOM_FOUNDARY_API_KEY")?? throw new InvalidOperationException();
+
 
 // 2. Initialize the Agent from AzureOpenAIClient via IChatClient
-AIAgent meetingAgent = new AzureOpenAIClient(new Uri(endpoint), new AzureCliCredential())
-    .GetChatClient(deploymentName)
+AIAgent meetingAgent = new AzureOpenAIClient(new Uri(endpoint), new ApiKeyCredential(apiKey))
+    .GetChatClient(model)
     .AsAIAgent(
         name: "MeetingAnalyst",
         instructions: "You are an AI analyst. Extract the topic, action items, and overall sentiment from the provided transcript."

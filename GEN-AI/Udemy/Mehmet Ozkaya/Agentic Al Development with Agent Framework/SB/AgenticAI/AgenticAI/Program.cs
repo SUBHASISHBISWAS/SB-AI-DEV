@@ -27,5 +27,12 @@ AIAgent supportAgent = chatClient.AsAIAgent(
 var userIssue = "I am getting a DNS resolution error when connecting to the corporate VPN from a coffee shop.";
 Console. WriteLine($"User: {userIssue}\n");
 
+/*
 var response= await supportAgent.RunAsync(userIssue);
 Console.WriteLine($"Agent: {response.Text}");
+*/
+
+await foreach (var update in supportAgent.RunStreamingAsync(userIssue))
+{
+    Console.Write(update.Text);
+}
