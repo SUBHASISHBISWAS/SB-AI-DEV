@@ -1,0 +1,3 @@
+Current temperature: 90.4°F
+High: 90.8°F
+Low: 71.2°F

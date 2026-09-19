@@ -1,5 +1,5 @@
 # === Agent + LLM Tools ===
-aisuite==0.1.11
+aisuite
 anthropic
 docstring-parser
 markdown
@@ -39,3 +39,5 @@ jinja2
 psycopg2-binary
 scikit-learn
 Wikipedia
+mcp
+aisuite[mcp]
