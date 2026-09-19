@@ -41,3 +41,7 @@ scikit-learn
 Wikipedia
 mcp
 aisuite[mcp]
+
+httpx
+ipython
+
