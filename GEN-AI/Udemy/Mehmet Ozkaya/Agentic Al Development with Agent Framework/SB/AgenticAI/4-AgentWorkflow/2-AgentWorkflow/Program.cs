@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ClientModel;
 using System.Threading.Tasks;
 using Azure.Identity;
 using Azure.AI.OpenAI;
@@ -8,10 +9,11 @@ using Microsoft.Agents.AI.Workflows;
 
 // 1. The Shared Workflow State
 
-var endpoint = Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT") ?? throw new InvalidOperationException("AZURE_OPENAI_ENDPOINT is not set.");
-var deploymentName = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-5-mini";
+var endpoint=Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT")?? throw new InvalidOperationException();
+var deploymentName = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-4o";
+var apiKey=Environment.GetEnvironmentVariable("ALSTOM_FOUNDARY_API_KEY")?? throw new InvalidOperationException();
 
-IChatClient chatClient = new AzureOpenAIClient(new Uri(endpoint), new AzureCliCredential())
+IChatClient chatClient = new AzureOpenAIClient(new Uri(endpoint), new ApiKeyCredential(apiKey))
     .GetChatClient(deploymentName)
     .AsIChatClient();
 
