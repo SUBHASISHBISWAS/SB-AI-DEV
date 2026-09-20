@@ -1,4 +1,5 @@
 ﻿
+using System.ClientModel;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using _2_HITL;
@@ -10,15 +11,16 @@ using OpenAI.Chat;
 using ChatMessage = Microsoft.Extensions.AI.ChatMessage;
 
 // 1. Define the variables we extracted from Microsoft Foundry
-var endpoint = Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT") ?? throw new InvalidOperationException("AZURE_OPENAI_ENDPOINT is not set.");
-var deploymentName = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-5-mini";
+var endpoint=Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT")?? throw new InvalidOperationException();
+var deploymentName = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-4o";
+var apiKey=Environment.GetEnvironmentVariable("ALSTOM_FOUNDARY_API_KEY")?? throw new InvalidOperationException();
 
 // 2. Wrap the Tool with Approval Requirements
 AIFunction rawRefundFunction = AIFunctionFactory.Create(FinanceTools.IssueRefund);
 AIFunction secureRefundTool = new ApprovalRequiredAIFunction(rawRefundFunction);
 
 // 3. Initialize the Agent with the secure tool
-AIAgent agent = new AzureOpenAIClient(new Uri(endpoint), new AzureCliCredential())
+AIAgent agent = new AzureOpenAIClient(new Uri(endpoint), new ApiKeyCredential(apiKey))
     .GetChatClient(deploymentName)
     .AsAIAgent(
         name: "FinanceSupport",

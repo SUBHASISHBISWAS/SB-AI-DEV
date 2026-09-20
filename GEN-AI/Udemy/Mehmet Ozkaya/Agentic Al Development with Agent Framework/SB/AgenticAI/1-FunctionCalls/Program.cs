@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ClientModel;
+using System.Text.Json.Serialization;
 using _1_FunctionCalls;
 using Azure.Identity;
 using Azure.AI.OpenAI;
@@ -9,11 +10,12 @@ using OpenAI.Chat;
 
 
 // 1. Define the variables we extracted from Microsoft Foundry
-var endpoint = Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT") ?? throw new InvalidOperationException("AZURE_OPENAI_ENDPOINT is not set.");
-var deploymentName = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-5-mini";
+var endpoint=Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT")?? throw new InvalidOperationException();
+var deploymentName = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-4o";
+var apiKey=Environment.GetEnvironmentVariable("ALSTOM_FOUNDARY_API_KEY")?? throw new InvalidOperationException();
 
 // 3. Initialize the Agent and Equip the Tool
-AIAgent agent = new AzureOpenAIClient(new Uri(endpoint), new AzureCliCredential())
+AIAgent agent = new AzureOpenAIClient(new Uri(endpoint), new ApiKeyCredential(apiKey))
     .GetChatClient(deploymentName)
     .AsAIAgent(
         name: "LogisticsSupport",

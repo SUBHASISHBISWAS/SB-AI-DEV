@@ -1,4 +1,5 @@
-﻿using Azure.AI.OpenAI;
+﻿using System.ClientModel;
+using Azure.AI.OpenAI;
 using Azure.Identity;
 using Microsoft.Agents.AI;
 using Microsoft.Extensions.AI;
@@ -6,8 +7,9 @@ using OpenAI.Assistants;
 using OpenAI.Chat;
 using OpenAI.Responses;
 // Define the variables we extracted from Microsoft Foundry
-var endpoint = Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT") ?? throw new InvalidOperationException("AZURE_OPENAI_ENDPOINT is not set.");
-var deploymentName = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-5-mini";
+var endpoint=Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT")?? throw new InvalidOperationException();
+var deploymentName = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-4o";
+var apiKey=Environment.GetEnvironmentVariable("ALSTOM_FOUNDARY_API_KEY")?? throw new InvalidOperationException();
 
 // Build the tools list and add the native Code Interpreter ResponseTool via the AITool bridge extension
 List<AITool> tools = [];
@@ -17,7 +19,7 @@ tools.Add(ResponseTool.CreateCodeInterpreterTool(
 #pragma warning restore OPENAI001
 
 // Initialize the Agent and inject the native Code Interpreter tool
-AIAgent mathAgent = new AzureOpenAIClient(new Uri(endpoint), new AzureCliCredential())
+AIAgent mathAgent = new AzureOpenAIClient(new Uri(endpoint), new ApiKeyCredential(apiKey))
     .GetChatClient(deploymentName)
     .AsAIAgent(
         name: "DataAnalyst",
@@ -32,7 +34,7 @@ string prompt = "Calculate the 10th Fibonacci number and determine if it is a pr
 Console.WriteLine($"User: {prompt}");
 
 AgentResponse response = await mathAgent.RunAsync(prompt);
-Console.WriteLine($"Agent: {response.Text}");
+Console.WriteLine($"Agent: {response}");
 
 
 //// File Search Tool
