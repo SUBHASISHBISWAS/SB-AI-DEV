@@ -1,3 +1,4 @@
+using System.ClientModel;
 using Azure.AI.OpenAI;
 using Azure.Identity;
 using Microsoft.Agents.AI;
@@ -12,13 +13,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.AddServiceDefaults();
 
 // 1. Define the variables we extracted from Microsoft Foundry
-var endpoint = Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT") ?? throw new InvalidOperationException("AZURE_OPENAI_ENDPOINT is not set.");
-var deploymentName = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-5-mini";
+var endpoint=Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT")?? throw new InvalidOperationException();
+var deploymentName = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-4o";
+var apiKey=Environment.GetEnvironmentVariable("ALSTOM_FOUNDARY_API_KEY")?? throw new InvalidOperationException();
+
 
 // 2. Instantiate the universal chat client with OpenTelemetry GenAI instrumentation
 IChatClient chatClient = new AzureOpenAIClient(
         new Uri(endpoint),
-        new AzureCliCredential())
+        new ApiKeyCredential(apiKey))
     .GetChatClient(deploymentName)
     .AsIChatClient()
     .AsBuilder()
