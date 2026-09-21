@@ -1,0 +1,23 @@
+@EnterpriseComplianceService_HostAddress = http://localhost:5074
+
+###
+
+# Send A2A request to the Compliance Agent (HTTP+JSON mapping)
+POST {{EnterpriseComplianceService_HostAddress}}/a2a/compliance/message:stream
+Content-Type: application/json
+
+{
+  "message": {
+    "kind": "message",
+    "role": 1,
+    "parts": [
+      {
+        "kind": "text",
+        "text": "Please review this user profile update: 'Added personal phone number +44 7911 123456 to the public directory.'",
+        "metadata": {}
+      }
+    ],
+    "messageId": "msg-001",
+    "contextId": "audit-session-998"
+  }
+}

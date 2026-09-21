@@ -1,0 +1,57 @@
+<Solution>
+  <Folder Name="/section11-agentic-rag/">
+    <Project Path="section11-agentic-rag/BasicTextRAGExample/BasicTextRAGExample.csproj" Id="c086e424-8d7b-41e1-bf89-0000a3088105" />
+    <Project Path="section11-agentic-rag/QdrantVectorStore/QdrantVectorStore.csproj" Id="ab3f9a8a-33df-4353-a6b9-bb29b3a7f1d5" />
+  </Folder>
+  <Folder Name="/section13-a2a/">
+    <Project Path="section13-a2a/EnterpriseComplianceService/EnterpriseComplianceService.csproj" Id="c0ceae0a-ec39-4366-bd5a-f98e2e3140b3" />
+  </Folder>
+  <Folder Name="/section14-mcp/">
+    <Project Path="section14-mcp/HostedMcpGovernanceExample/HostedMcpGovernanceExample.csproj" Id="43c1a5f0-66ee-4b4c-ae4e-5dafb1e25bba" />
+    <Project Path="section14-mcp/LocalGitHubMcpExample/LocalGitHubMcpExample.csproj" Id="bff03325-35cf-40a4-9993-860d129b4006" />
+  </Folder>
+  <Folder Name="/section15-ag-ui/">
+    <Project Path="section15-ag-ui/Client/Client.csproj" Id="dfce0b39-c1b3-4ec7-92a2-f6a5470f644a" />
+    <Project Path="section15-ag-ui/Server/Server.csproj" />
+  </Folder>
+  <Folder Name="/section4-setup/">
+    <Project Path="section4-setup/HelloAgent/HelloAgent.csproj" />
+  </Folder>
+  <Folder Name="/section5-getting-started/">
+    <Project Path="section5-getting-started/BasicAgentApp/BasicAgentApp.csproj" Id="196c45bc-8d94-4fd8-9bb0-54267136d2d3" />
+    <Project Path="section5-getting-started/MultiTurn/MultiTurn.csproj" Id="e88c51be-e1ab-411c-9511-8be156af7cba" />
+    <Project Path="section5-getting-started/Streaming/Streaming.csproj" Id="eae2f426-78cd-4a04-b39b-883089831951" />
+    <Project Path="section5-getting-started/StructuredOutput/StructuredOutput.csproj" Id="f8c747d7-ebb6-4f81-ae31-56f72b8fd8a1" />
+  </Folder>
+  <Folder Name="/section5-getting-started/MinimalAgent/">
+    <Project Path="section5-getting-started/MinimalAgent/AppHost/AppHost.csproj" />
+    <Project Path="section5-getting-started/MinimalAgent/ServiceDefaults/ServiceDefaults.csproj" />
+    <Project Path="section5-getting-started/MinimalAgent/WebApi/WebApi.csproj" />
+  </Folder>
+  <Folder Name="/section6-tool-use/">
+    <Project Path="section6-tool-use/ApproveRequiredFunc/ApproveRequiredFunc.csproj" Id="8ed048d9-4931-48b7-aa65-4a39c1d925f7" />
+    <Project Path="section6-tool-use/CodeInterpreter/CodeInterpreter.csproj" Id="b3de5f4b-db60-41d4-9a1e-2bcca3084fd4" />
+    <Project Path="section6-tool-use/FunctionCall/FunctionCall.csproj" Id="0044f9d7-c5f1-4edd-baef-3f35c071151a" />
+  </Folder>
+  <Folder Name="/section6-tool-use/MinimalAgentWithTools/">
+    <Project Path="section6-tool-use/MinimalAgentWithTools/AppHost/AppHost.csproj" />
+    <Project Path="section6-tool-use/MinimalAgentWithTools/ServiceDefaults/ServiceDefaults.csproj" />
+    <Project Path="section6-tool-use/MinimalAgentWithTools/WebApi/WebApi.csproj" />
+  </Folder>
+  <Folder Name="/section7-memory/">
+    <Project Path="section7-memory/CustomContextProvider/CustomContextProvider.csproj" Id="4dab6271-0409-4dbf-84bf-cb959c727c67" />
+    <Project Path="section7-memory/MockCosmosDb/MockCosmosDb.csproj" Id="7cfd7d51-5790-4892-88ef-8212f7a19f9a" />
+  </Folder>
+  <Folder Name="/section8-workflows/">
+    <Project Path="section8-workflows/AgentsWorkflow/AgentsWorkflow.csproj" Id="5b70d863-bb58-4c0b-bf73-b801df7138df" />
+    <Project Path="section8-workflows/FirstWorkflow/FirstWorkflow.csproj" Id="579947d7-36be-466b-b0af-856ca7367207" />
+  </Folder>
+  <Folder Name="/section9-workflow-patterns/">
+    <Project Path="section9-workflow-patterns/AgenticWorkflowPatterns/AgenticWorkflowPatterns.csproj" Id="b89bfd75-2438-461f-bbab-b66c2e887f3e" />
+  </Folder>
+  <Folder Name="/section9-workflow-patterns/MinimalAgentWithWorkflows/">
+    <Project Path="section9-workflow-patterns/MinimalAgentWithWorkflows/AppHost/AppHost.csproj" />
+    <Project Path="section9-workflow-patterns/MinimalAgentWithWorkflows/ServiceDefaults/ServiceDefaults.csproj" />
+    <Project Path="section9-workflow-patterns/MinimalAgentWithWorkflows/WebApi/WebApi.csproj" />
+  </Folder>
+</Solution>
