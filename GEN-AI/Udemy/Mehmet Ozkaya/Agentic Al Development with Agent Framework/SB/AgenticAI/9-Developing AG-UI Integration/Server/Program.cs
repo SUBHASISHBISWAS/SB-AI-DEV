@@ -1,3 +1,4 @@
+using System.ClientModel;
 using Azure.AI.OpenAI;
 using Azure.Identity;
 using Microsoft.Agents.AI;
@@ -14,10 +15,11 @@ builder.Services.AddHttpClient().AddLogging();
 builder.Services.AddAGUI();
 
 // 2. Initialize the LLM Chat Client and Define the Backend Agent
-var endpoint = Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT") ?? throw new InvalidOperationException("AZURE_OPENAI_ENDPOINT is not set.");
-var deploymentName = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-5-mini";
+var endpoint=Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT")?? throw new InvalidOperationException();
+var deploymentName = Environment.GetEnvironmentVariable("AZURE_OPENAI_DEPLOYMENT_NAME") ?? "gpt-4o";
+var apiKey=Environment.GetEnvironmentVariable("ALSTOM_FOUNDARY_API_KEY")?? throw new InvalidOperationException();
 
-AIAgent enterpriseAgent = new AzureOpenAIClient(new Uri(endpoint), new AzureCliCredential())
+AIAgent enterpriseAgent = new AzureOpenAIClient(new Uri(endpoint), new ApiKeyCredential(apiKey))
      .GetChatClient(deploymentName)
      .AsAIAgent(
          name: "EnterpriseSupportAgent",
