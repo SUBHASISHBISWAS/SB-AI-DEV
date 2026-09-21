@@ -66,6 +66,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7-Using Agentic Protocols A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseComplianceService", "7-Using Agentic Protocols A2A\EnterpriseComplianceService\EnterpriseComplianceService.csproj", "{23FC3F93-1A09-440C-AD5D-8C3D657F6ADD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8-Developing Model Context Protocol (MCP)", "8-Developing Model Context Protocol (MCP)", "{9647172C-70AE-431A-B5ED-1F3671CDFFFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalGitHubMcpExample", "8-Developing Model Context Protocol (MCP)\1-LocalGitHubMcpExample\LocalGitHubMcpExample.csproj", "{C9B26B5F-0D58-4A36-A8A9-1AEC206B0E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostedMcpGovernanceExample", "8-Developing Model Context Protocol (MCP)\2-HostedMcpGovernanceExample\HostedMcpGovernanceExample.csproj", "{27725474-C61D-4C0C-BF19-5D99BABB95B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -164,6 +170,14 @@ Global
 		{23FC3F93-1A09-440C-AD5D-8C3D657F6ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23FC3F93-1A09-440C-AD5D-8C3D657F6ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23FC3F93-1A09-440C-AD5D-8C3D657F6ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B26B5F-0D58-4A36-A8A9-1AEC206B0E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B26B5F-0D58-4A36-A8A9-1AEC206B0E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B26B5F-0D58-4A36-A8A9-1AEC206B0E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B26B5F-0D58-4A36-A8A9-1AEC206B0E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27725474-C61D-4C0C-BF19-5D99BABB95B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27725474-C61D-4C0C-BF19-5D99BABB95B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27725474-C61D-4C0C-BF19-5D99BABB95B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27725474-C61D-4C0C-BF19-5D99BABB95B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{85931CDC-C8DB-4DDA-A5DC-13A7818DF82D} = {8444736E-942C-4533-A5EB-6A63C1CD58CE}
@@ -192,5 +206,7 @@ Global
 		{C53A8169-6996-4806-A77A-19A1D30FD45F} = {C8A87AA4-1844-41C2-928E-296C3DC9E0D0}
 		{6BCE01D2-D804-4804-BD9B-A270E31C1C76} = {C8A87AA4-1844-41C2-928E-296C3DC9E0D0}
 		{23FC3F93-1A09-440C-AD5D-8C3D657F6ADD} = {F7854E3B-C467-41F6-88EA-54EB71A87AB5}
+		{C9B26B5F-0D58-4A36-A8A9-1AEC206B0E6B} = {9647172C-70AE-431A-B5ED-1F3671CDFFFE}
+		{27725474-C61D-4C0C-BF19-5D99BABB95B7} = {9647172C-70AE-431A-B5ED-1F3671CDFFFE}
 	EndGlobalSection
 EndGlobal
